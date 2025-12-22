@@ -1,5 +1,3 @@
-'use client'
-
 import Link from "next/link";
 
 export default function Home() {
@@ -9,8 +7,6 @@ export default function Home() {
         Welcome
       </h1>
       <Link href={"/test_slug"}>View slug</Link>
-      <Link href={"/test_slug"}>View test slug</Link>
-      <Link href={"/test_slug/test_page"}>View test page</Link>
 
     </>
   );
