@@ -2,14 +2,14 @@
 
 import Link from "next/link"
 
-export default function SlugPage() {
+export default function PagePage() {
   return (
-    <div>
+    <>
       <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-        Page
+        Nested page
       </h1>
       <Link href={"/"}>Home</Link>
-      <Link href={"/test_slug/test_page"}>Test page</Link>
-    </div>)
+      <Link href={"/test"}>Back to slug</Link>
+    </>)
 
 }
