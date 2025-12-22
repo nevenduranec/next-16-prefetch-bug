@@ -7,7 +7,6 @@ export default function SlugPage() {
         Page
       </h1>
       <Link href={"/"}>Home</Link>
-      <Link href={"/test_slug/test_page"}>Test page</Link>
     </>)
 
 }
