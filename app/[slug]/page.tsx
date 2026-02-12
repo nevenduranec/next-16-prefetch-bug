@@ -1,5 +1,9 @@
 import Link from "next/link"
 
+export function generateStaticParams() {
+  return [{ slug: "test_slug" }]
+}
+
 export default function SlugPage() {
   return (
     <>
